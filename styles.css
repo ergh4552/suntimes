@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#table-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+}
+
+.table-scroll {
+  flex: 1;
+  overflow-y: auto;
+}
+
+#my-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  padding: 8px;
+  z-index: 2;
+}
+
+tbody td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.sundayrow {
+  border-bottom: 3px solid black;
+}
+
+.leftcell {
+  border-left: 3px solid black;
+}
+
+.rightcell {
+  border-right: 3px solid black;
+}
+
+.sundaycell {
+  color: #fc6317;
+}
+
+.locationtitle {
+  font-size: 70%; 
+  padding-top: 0%;
+}
+
+.monthname {
+  font-size: 110%; 
+  border-top: 5px solid black;
+  text-decoration: underline;
+}
